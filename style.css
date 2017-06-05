@@ -1,0 +1,30 @@
+.styles {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+#color {
+	background-image: url("images/background.jpg");
+}
+.mainArea{
+  background: rgba(0,0,0, 0.85);
+}
+#title{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+}
+#express-form{
+	color: white;
+	font-weight: bold;
+}
+
+.expression, #addExpress{
+	padding: 8px;
+	margin: 10px;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+}
+form {
+	margin: 20px;
+}
