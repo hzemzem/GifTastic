@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     var topics = ['Fez', 'Red Forman', 'Steven Hyde', 'Eric Forman', 'Jackie Burkhart', 'Kitty Forman', 'Donna Pinciotti', 'Bob Pinciotti'];
 
 
@@ -77,4 +77,3 @@ $(document).ready(function(){
             }
 
         });
-});

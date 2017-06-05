@@ -14,8 +14,13 @@
 	font-weight: bold;
 }
 #express-form{
-	color: white;
 	font-weight: bold;
+}
+#expressView{
+	color: white;
+}
+#adding {
+	color: white;
 }
 
 .expression, #addExpress{
