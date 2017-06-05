@@ -1,6 +1,6 @@
 
     var topics = ['Fez', 'Red Forman', 'Steven Hyde', 'Eric Forman', 'Jackie Burkhart', 'Kitty Forman', 'Donna Pinciotti', 'Bob Pinciotti'];
-    event.preventDefault();
+
 
         function buttonExpress(){
             $('#buttonsView').empty();
@@ -22,7 +22,7 @@
         var express = $(this).html(); 
         console.log(express);
         
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + express + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + express + "&api_key=dc6zaTOxFJmzC&limit=10";
 
             $.ajax({
                 url: queryURL, 
