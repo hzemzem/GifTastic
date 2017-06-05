@@ -17,6 +17,7 @@ $(document).ready(function(){
        
 
       $(document).on('click', '.expression', function() {
+        event.preventDefault();
 
         var express = $(this).html(); 
         console.log(express);
