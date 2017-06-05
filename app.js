@@ -1,6 +1,6 @@
 
     var topics = ['Fez', 'Red Forman', 'Steven Hyde', 'Eric Forman', 'Jackie Burkhart', 'Kitty Forman', 'Donna Pinciotti', 'Bob Pinciotti'];
-
+    event.preventDefault();
 
         function buttonExpress(){
             $('#buttonsView').empty();
@@ -64,6 +64,7 @@
         })
 
         $(document).on('click', '#addExpress', function(){
+            event.preventDefault();
             if ($('#express-input').val().trim() == ''){
               alert('Input can not be left blank');
            }
